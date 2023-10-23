@@ -1,9 +1,14 @@
-# Python Barista Spencer Thomson 10/23
-# This is a modified version of the NetworkChuck Python Barista 
+# Python_Barista.py
+# Author: Spencer Thomson
+# Date: 10/23/2023
+# Description: This is a modified version of the NetworkChuck Python Barista.
+#              The script simulates a coffee ordering experience at a coffee shop.
+#              It includes basic error handling and user interactions. This version
+#              has additional features such as a dynamic menu and millionaire check.
 
-import time
-import sys
-import os
+import time  # For sleep function to simulate waiting time
+import sys  # For system-level operations like exit
+import os  # For clearing the console screen
 
 def clear_screen():
     os.system('clear||cls')
